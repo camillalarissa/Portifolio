@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h2{
+    text-shadow: 0px 0px 10px #6B1872,
+    0px 0px 20px #6B1872,
+    0px 0px 40px #6B1872,
+    0px 0px 80px #6B1872;
+}
+
+#foto {
+    box-shadow: 
+        0px 0px 10px rgba(107, 24, 114, 0.5),
+        0px 0px 10px rgba(107, 24, 114, 0.5),
+        0px 0px 30px rgba(107, 24, 114, 0.3),
+        0px 0px 50px rgba(107, 24, 114, 0.2);
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url(../fontes/RobotoMono-Bold.ttf) format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "RobotoMedium";
+    src: url(../fontes/RobotoMono-Medium.ttf) format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "RobotoSemiBold";
+    src: url(../fontes/RobotoMono-SemiBold.ttf) format("truetype");
+    font-display: swap;
+}
+
+

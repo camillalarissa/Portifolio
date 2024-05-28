@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   <!--META TAG OG-->
+   <meta property="og:type" content="website"/>
+   <meta property="og:title" content="Camilla Larissa!"/>
+   <meta property="og:image" content="https://portifolio-camillalarissa.netlify.app/"/>
+   <meta property="og:description" content="Entre em Contato!"/>
+   <meta property="og:site_name" content="Desenvolvedora"/>
+  
+    <!--Style-->
+    <link rel="stylesheet" href="./styles/output.css">
+    <link rel="stylesheet" href="styles/loader.css">
+
+    <!--Link Tailwind-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+     <!--Link Favicon-->
+     <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+
+    <!--Link Cdn-Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Camilla Larissa/Portifólio</title>
+
+ 
+  
+</head>
+<body class="bg-gray-50 font-robotoSemiBold">
+
+    <section class="relative">
+        
+        <section class="relative  md:py-80 py-12">
+         
+          <div class="container mx-auto text-center text-white relative z-10 w-10/12">
+            <h2 class="area-1 text-2xl md:text-6xl mt-32 md:mt-12 font-bold mb-32">Camilla Larissa <span class="text-customPurple font-sans">Desenvolvedora Front End.</span></h2>
+           
+                <a href="https://drive.usercontent.google.com/u/0/uc?id=1Jpgc-jTv9MjPA8SDV232xfTTPLURqhPt&export=download" class=" bg-black text-white hover:bg-white hover:text-black transition duration-300 ease-in-out  border-2 transitio border-black text-xl  font-bold py-2 px-4 rounded mb-10 ">Meu Currículo</a> 
+
+                 <!-- Ícones de contato Icons -->
+                 <div class="flex justify-center mt-10 ">
+                    <div class="mt-8">
+                      <a href="https://github.com/camillalarissa" target="_blank" class="mr-10">
+                        <i class="fa-brands fa-github fa-2xl md:fa-xl hover:scale-125 transition duration-300 ease-in-out" style="color:black;"></i>
+                      </a>
+                      <a href="mailto:camilla_larissa7@hotmail.com" target="_blank" class="mr-10">
+                        <i class="fa-solid fa-envelope fa-2xl md:fa-xl hover:scale-125 transition duration-300 ease-in-out" style="color:black;"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/in/camilla-larissa-dev/" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-2xl md:fa-xl hover:scale-125 transition duration-300 ease-in-out" style="color: black;"></i>
+                      </a>
+                    </div>
+                  </div>
+
+          </div>
+        </section>
+      
+        <!-- Cabeçalho -->
+        <header class="absolute top-0 left-0 right-0 py-4">
+          <div class="bg-customPurple opacity-30 absolute inset-0"></div>
+          <div class="container mx-auto flex justify-between items-center">
+
+            <!-- Logo e nome -->
+            <div class="flex items-center z-10">
+              <a href="#" target="_blank">
+                <img class="w-20 " src="assets/logo.png" alt="logo">
+              </a>
+        
+            </div>
+      
+            <!-- Nav -->
+            <nav class="hidden md:flex z-10">
+              <ul class="flex text-customPurple font-medium ">
+                <li class="mr-4 text-lg border-b border-transparent transition duration-300 ease-in-out hover:border-customPurple"><a href="#sobre">Sobre</a></li>
+                <li class="mr-4 text-lg border-b border-transparent transition duration-300 ease-in-out hover:border-customPurple"><a href="#projetos">Projetos</a></li>
+                <li class="mr-4 text-lg border-b border-transparent transition duration-300 ease-in-out hover:border-customPurple"><a href="#contato">Contato</a></li>
+              </ul>
+            </nav>
+      
+           
+      <!-- Botão do menu móvel -->
+<button id="menu-toggle" class="md:hidden focus:outline-none z-50 mr-10">
+    <i class="fa-solid fa-bars fa-xl" style="color: #6B1872;"></i>
+  </button>
+  
+  <!-- Menu Mobile -->
+  <div id="mobile-menu" class=" md:hidden bg-black opacity-80 py-2 hidden w-48 md:w-64 fixed inset-y-0 left-0 transform -translate-x-full transition-transform duration-300 ease-in-out z-50">
+    <div class="container mx-auto ">
+      <ul class="text-customPurple font-bold text-center py-10 z-1">
+        <li class="py-3 text-lg border-b border-white
+         hover:text-white transition-colors duration-300"><a href="#sobre">Sobre</a></li>
+        <li class="py-3 text-lg border-b border-white
+         hover:text-white transition-colors duration-300"><a href="#projetos">Projetos</a></li>
+        <li class="py-3 text-lg border-b border-white
+        hover:text-white transition-colors duration-300"><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+  
+    </section>
+      
+    <div class="flex justify-center">
+        <section id="sobre" class="container mx-auto py-14 px-4">
+            <div class="flex flex-col md:flex-row items-center mb-48 justify-center">
+                <img id="foto" src="assets/WhatsApp_Image_2023-07-08_at_11.12.39__2_-removebg-preview.png" alt="Foto Camilla" class="area-img w-3/4 sm:w-2/4 md:w-1/3 lg:w-1/4 rounded-full shadow-md mb-4 md:mb-0 animate-float lg:mr-12 mr-10">
+                <div class="md:w-2/3 md:pl-8 max-w-xl text-center md:text-left">
+                    <h2 class="titulo-area text-5xl font-bold text-customPurple mb-10">Sobre</h2>
+                    <p class="area-2 text-lg text-black font-semibold tracking-tighter">
+                        Olá, sou uma desenvolvedora Web Frontend construindo o Front-end de sites e aplicativos Web, uma profissional dedicada e apaixonada por tecnologia. <br />
+
+                        Com formação acadêmica em gestão de tecnologia da informação!
+                        Busco continuamente desafios que ampliem meus horizontes em tecnologia, visando objetivos profissionais, como liderança, inovação, comunicação, resolução de problemas, aceitação de feedbacks e resiliências.
+                        Meu objetivo é crescer de forma contínua e agregar valor onde quer que eu esteja, impulsionando positivamente equipes e projetos.
+                    </p>
+                    <p id="more-info" class="hidden text-lg text-black font-semibold tracking-tighter mt-4">
+                        Minha jornada profissional foi enriquecida com a oportunidade de mergulhar profundamente em tecnologias fundamentais como HTML, CSS e JavaScript, bem como em frameworks modernos como React. Essas experiências solidificaram meu entendimento e habilidades nessas áreas cruciais do desenvolvimento web. <br><br>
+    
+                        Estou sempre em busca de conhecimento e constantemente aprimorando minhas habilidades, seja por meio de cursos online, leitura de livros técnicos ou participação em comunidades de desenvolvimento.
+
+                        Estou genuinamente comprometida em continuar aprendendo e crescendo no campo da tecnologia. Meu objetivo é não apenas me manter atualizada com as últimas tendências e ferramentas, mas também aplicar esse conhecimento para agregar valor aos projetos e equipes com as quais colaboro. 
+                    </p>
+                    <a href="#" id="toggle-info" class="text-customPurple font-semibold underline cursor-pointer">Saber mais sobre</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+  <!-- Projetos -->
+
+  <section id="projetos" class="container mx-auto  px-6 ">
+    <h2 class="text-5xl font-bold text-customPurple mb-32 text-center ">Projetos</h2>
+    <div class="flex flex-col lg:flex-row">
+        <div class="flex flex-col space-y-4 lg:mr-10 mb-10 lg:mb-0 lg:w-1/4">
+            <h3 id="freelancerBtn" class="cursor-pointer text-2xl font-semibold text-left  bg-black text-white hover:bg-white hover:text-black transition duration-300 ease-in-out  border-2 transitio border-black py-2 px-4 rounded mb-10">Freelancer</h3>
+           
+            <h3 id="personalBtn" class="cursor-pointer text-left  bg-black text-white hover:bg-white hover:text-black transition duration-300 ease-in-out  border-2 transitio border-black text-xl  font-bold py-2 px-4 rounded mb-10">Projetos Pessoais</h3>
+        </div>
+        <div class="flex-grow">
+            <div id="freelancerProjects" class="">
+                <!-- Projeto Freelancer 1 -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <div>
+                        <a href="https://github.com/camillalarissa/Caroline-Energia-Solar" target="_blank" class="block mb-2">
+                            <img src="assets/freecarol.jpg" alt="Projeto Freelancer Carol" class="project-img mx-auto rounded shadow-md w-full">
+                        </a>
+                        <p class="text-xl font-bold mt-6"> WebSite - Consultora em Energia Solar</p>
+                        <a href="https://consultora-caroline.netlify.app/" target="_blank" class="text-customPurple font-semibold underline">Visitar Site</a>
+                    </div>
+                    <!-- Projeto Freelancer 2 -->
+                    <div>
+                        <a href="https://github.com/camillalarissa/Bruna-nutri" target="_blank" class="block mb-2">
+                            <img src="assets/freebruna.jpg" alt="Projeto Freelancer Bruna" class="project-img mx-auto rounded shadow-md w-full">
+                        </a>
+                        <p class="text-xl font-bold mt-6"> WebSite - Bruna Nutricionista</p>
+                        <a href="https://bruna-nutri.netlify.app/" target="_blank" class="text-customPurple font-semibold underline">Visitar Site</a>
+                    </div>
+
+                     <!-- Projeto Freelancer 3 -->
+                     <div>
+                        <a href="https://github.com/camillalarissa/Rosa-Centro-de-Beleza" target="_blank" class="block mb-2">
+                            <img src="assets/freerosa.jpg" alt="Projeto Freelancer rosa" class="project-img mx-auto rounded shadow-md w-full">
+                        </a>
+                        <p class="text-xl font-bold mt-6"> WebSite - Rosa Salão</p>
+                        <a href="https://rosas-centrodebezela.netlify.app/" target="_blank" class="text-customPurple font-semibold underline">Visitar Site</a>
+                    </div>
+
+                     <!-- Projeto Freelancer 4 -->
+                     <div>
+                        <a href="https://github.com/camillalarissa/site-igreja" target="_blank" class="block mb-2">
+                            <img src="assets/freeigreja.jpg" alt="Projeto Freelancer rosa" class="project-img mx-auto rounded shadow-md w-full">
+                        </a>
+                        <p class="text-xl font-bold mt-6 "> Site - Igreja</p>
+                        <a href="https://comunidade-evangelica-restauracao.netlify.app/" target="_blank" class="  text-customPurple font-semibold underline">Visitar Site</a>
+                    </div>
+                </div>
+            </div>
+            <div id="personalProjects" class="hidden">
+                <!-- Projeto Pessoal 1 -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <div>
+                        <a href="https://github.com/camillalarissa/Cardapio-padaria-araujo" target="_blank" class="block mb-2">
+                            <img src="assets/pessocarda.jpg" alt="Projeto Pessoal cardapio" class="project-img mx-auto rounded shadow-md w-full ">
+                        </a>
+                        <p class="text-xl font-bold mt-6 ">Cardápio</p>
+                        <a href="https://menu-padaria-araujo.netlify.app/" target="_blank" class="text-customPurple font-semibold underline">Visitar Site</a>
+                    </div>
+
+                   <!-- Projeto Pessoal 2 -->
+                   <div>
+                    <a href="https://github.com/camillalarissa/Projeto-React?tab=readme-ov-file" target="_blank" class="block mb-2">
+                        <img src="assets/pessrcad.jpg" alt="Projeto Pessoal Cadastro nome " class="project-img mx-auto rounded shadow-md w-full ">
+                    </a>
+                    <p class="text-xl font-bold mt-6">Tela Cadastro Nome e Idade</p>
+                    <a href="#" target="_blank" class="text-customPurple font-semibold underline">Visitar Site</a>
+                </div>
+                <!-- Projeto Pessoal 3 -->
+                <div>
+                    <a href="https://github.com/camillalarissa/Conversor" target="_blank" class="block mb-2">
+                        <img src="assets/pessconv.jpg" alt="Projeto Pessoal conversor" class="project-img mx-auto rounded shadow-md w-full ">
+                    </a>
+                    <p class="text-xl font-bold mt-6">Conversor de Moeda</p>
+                    <a href="https://convertionmoney.netlify.app/" target="_blank" class="text-customPurple font-semibold  underline">Visitar Site</a>
+                </div>
+
+                <!-- Projeto Pessoal 4 -->
+                <div>
+                    <a href="https://github.com/camillalarissa/App-Previsao-do-tempo" target="_blank" class="block mb-2">
+                        <img src="assets/pesspre.jpg" alt="Projeto Pessoal previsao" class="project-img mx-auto rounded shadow-md w-full ">
+                    </a>
+                    <p class="text-xl font-bold mt-6">Previsão do Tempo</p>
+                    <a href="https://tempprevisao.netlify.app/" target="_blank" class="text-customPurple font-semibold underline">Visitar Site</a>
+                </div>
+
+                <!-- Projeto Pessoal 5 -->
+                <div>
+                    <a href="https://github.com/camillalarissa/tela-login?tab=readme-ov-file" target="_blank" class="block mb-2">
+                        <img src="assets/pesstela.jpg" alt="Projeto Pessoal tela" class="project-img mx-auto rounded shadow-md w-full ">
+                    </a>
+                    <p class="text-xl font-bold mt-6">Tela de Login</p>
+                    <a href="https://camillalarissa.github.io/tela-login/" target="_blank" class="text-customPurple font-semibold underline ">Visitar Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ 
+  <!-- Formulário de Contato -->
+  <section id="contato" class=" text-white py-16">
+    <div class="container mx-auto">
+      <h2 class="titulo-area text-5xl font-bold mb-32  text-center  text-customPurple">Entre em Contato</h2>
+      
+      
+      <div class="flex flex-wrap justify-center items-center">
+
+        <!-- Inicio do  Formulário de Contato -->
+        <div class="w-full md:w-1/2 px-8 mb-11">
+          <form action="https://formsubmit.co/camilla_larissa7@hotmail.com" method="POST" class="area-5 w-full">
+            <div class="mb-4">
+              <label for="nome" class="block mb-2 text-customPurple font-semibold">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" class="w-full bg-black rounded-lg py-2 px-4 text-white" required>
+            </div>
+            <div class="mb-4">
+              <label for="telefone" class="block mb-2  text-customPurple font-semibold">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="Seu Celular com DD" class="w-full bg-black rounded-lg py-2 px-4 text-white" required>
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block mb-2  text-customPurple font-semibold">Email</label>
+              <input type="email" id="email" name="email" placeholder="Seu Email" class="w-full bg-black rounded-lg py-2 px-4 text-white" required>
+            </div>
+            <div class="mb-4">
+              <label for="mensagem" class="block mb-2  text-customPurple font-semibold">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Ecreva sua Mensagem" class="w-full bg-black rounded-lg py-2 px-4 text-white" rows="4"></textarea>
+            </div>
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_autoresponse"
+              value="Recebi sua Mensagem, obrigada pelo contato e logo retornarei!"
+            />
+            <button type="submit" class="bg-customPurple hover:bg-opacity-80 text-white py-2 px-4 rounded-lg">Enviar</button>
+          </form>
+        </div>
+        
+        <!-- contato  -->
+        <div class="area-6 w-full md:w-1/2 px-4 mb-10">
+            <div class="aspect-w-16 aspect-h-9">
+               <h2 class=" text-center mr-4 text-lg border-b border-transparent transition duration-300 ease-in-out hover:border-customPurple text-black">Ou me ache aqui</h2>
+
+                 <!-- Ícones de contato Icons -->
+                 <div class="flex justify-center mt-10 ">
+                    <div class="mt-8">
+                      <a href="https://wa.me/5511944540951" target="_blank" class="mr-10">
+                        <i class="fa-brands fa-whatsapp fa-2xl md:fa-xl hover:scale-125 transition duration-300 ease-in-out" style="color:black;"></i>
+                      </a>
+                      <a href="mailto:camilla_larissa7@hotmail.com" target="_blank" class="mr-10">
+                        <i class="fa-solid fa-envelope fa-2xl md:fa-xl hover:scale-125 transition duration-300 ease-in-out" style="color:black;"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/in/camilla-larissa-dev/" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-2xl md:fa-xl hover:scale-125 transition duration-300 ease-in-out" style="color: black;"></i>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Rodapé -->
+  <footer class="  bg-customPurple1 text-black py-8">
+    <div class="container mx-auto z-10">
+    
+    
+      
+      <!-- Direitos Autorais -->
+      <p class="text-sm text-center">© <span id="year"></span> Desenvolvido por <a href="#"><span class="font-bold hover:text-customPurple">Camilla Larissa.</span></a> Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  
+<!-- Script Js -->
+  <script src="script.js"></script>
+  
+</body>
+  
